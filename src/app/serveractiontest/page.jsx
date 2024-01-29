@@ -1,6 +1,12 @@
-import { addPost, deletePost } from "@/lib/action";
+import { addPost, deletePost } from "@/lib/action"
 
 const ServerActionTestPage = () => {
+
+   // const actionInComponent = async ()=>{
+   //   "use server"
+   //   console.log("it works!")
+   // }
+
    return (
       <div>
          <form action={addPost}>
@@ -19,4 +25,4 @@ const ServerActionTestPage = () => {
    )
 }
 
-export default ServerActionTestPage;
+export default ServerActionTestPage
